@@ -16,7 +16,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@chromatic-com/playwright": "^0.6.5",
     "@chromatic-com/storybook": "^1.2.23",
+    "@playwright/test": "^1.42.1",
     "@storybook/addon-essentials": "^8.1.0-alpha.2",
     "@storybook/addon-interactions": "^8.1.0-alpha.2",
     "@storybook/addon-links": "^8.1.0-alpha.2",
@@ -25,11 +27,13 @@
     "@storybook/react": "^8.1.0-alpha.2",
     "@storybook/react-vite": "^8.1.0-alpha.2",
     "@storybook/test": "^8.1.0-alpha.2",
+    "@types/node": "^20.11.29",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "@vitejs/plugin-react": "^4.2.1",
+    "chromatic": "^11.1.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
@@ -119,5 +123,6 @@
     "sb": "8.1.0-alpha.2",
     "storybook": "8.1.0-alpha.2",
     "jackspeak": "2.1.1"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
